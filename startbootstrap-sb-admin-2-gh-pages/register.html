@@ -45,20 +45,45 @@
                   </div>
                 </div>
                 <div class="form-group">
-                  <input type="email" class="form-control form-control-user" id="exampleInputEmail" placeholder="Email Address">
+                  <input type="address" class="form-control form-control-user" id="address1" placeholder="Address1">
                 </div>
                 <div class="form-group row">
                   <div class="col-sm-6 mb-3 mb-sm-0">
-                    <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
-                  </div>
-                  <div class="col-sm-6">
-                    <input type="password" class="form-control form-control-user" id="exampleRepeatPassword" placeholder="Repeat Password">
+                    <input type="address" class="form-control form-control-user" id="address2" placeholder="Address2">
+                    <p></p>
+                    
+                  <!-- Collapsable Card Example -->
+              <div class="card shadow mb-4">
+                <!-- Card Header - Accordion -->
+                <a href="#collapseCardExample" class="d-block card-header py-3" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="collapseCardExample">
+                  <h6 class="m-0 font-weight-bold text-primary">State</h6>
+                </a>
+                <!-- Card Content - Collapse -->
+                <div class="collapse show" id="state">
+                  <div class="card-body">
+                    <ul>
+                    <li>TX</li>
+                    <li>CA</li>
+                    <li>GA</li>
+                    <li>FL</li>
+                    <li>NY</li>
+                    </ul>
                   </div>
                 </div>
+                </div>
+              
+                </div>
+                <div class="col-sm-6">
+                    <input type="city" class="form-control form-control-user" id="city" placeholder="City">
+                    <p></p>
+                    <input type="zipcode" class="form-control form-control-user" id="zipcpde" placeholder="Zipcode">
+                </div>
+                
                 <a href="login.html" class="btn btn-primary btn-user btn-block">
                   Register Account
                 </a>
                 <hr>
+              </div>
                 <a href="index.html" class="btn btn-google btn-user btn-block">
                   <i class="fab fa-google fa-fw"></i> Register with Google
                 </a>
@@ -67,9 +92,11 @@
                 </a>
               </form>
               <hr>
+            
               <div class="text-center">
                 <a class="small" href="forgot-password.html">Forgot Password?</a>
-              </div>
+            
+            </div>
               <div class="text-center">
                 <a class="small" href="login.html">Already have an account? Login!</a>
               </div>
